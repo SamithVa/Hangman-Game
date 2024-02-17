@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="learningGtk" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/learningGtk" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/learningGtk" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mms-bitfields" />
+			<Add option="-Wall" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/include" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/include/gtk-3.0" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/include/cairo" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/include/gdk" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/include/glib-2.0" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/lib/glib-2.0/include" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/include/pango-1.0" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/lib/gtk-3.0/include" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/include/atk-1.0" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/include/gdk-pixbuf-2.0" />
+		</Compiler>
+		<Linker>
+			<Add library="gtk-win32-3.0" />
+			<Add library="gobject-2.0" />
+			<Add library="glib-2.0" />
+			<Add directory="D:/gtk+-bundle_3.6.4-20130513_win64/lib" />
+		</Linker>
+		<Unit filename="game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

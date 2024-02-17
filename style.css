@@ -1,0 +1,204 @@
+*{
+    font-size: 16px;
+}
+
+#win{
+    /* background-color: bisque; */
+    margin: 0;
+}
+
+#back_btn{
+    margin-top: 10px;
+    margin-right: 400px;
+}
+
+#back_btn:hover{
+    transition: 0.5s linear;
+    background: gray;
+    color:white;
+}
+
+/* Menu */
+
+#welcome_label {
+    background-color: gray;
+    color: bisque;
+    font-size: 32px;
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Main Window */
+#play_btn{
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background: rgb(145, 197, 145);
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#quit_btn{
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(205, 144, 144);
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#play_btn:hover{
+    transition: 1s linear;
+    background: green;
+}
+
+#quit_btn:hover{
+    transition: 1s linear;
+    background: #ae3814;
+}
+/* End Main Window */
+
+
+
+/* During game display */
+#word_display{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+
+#user_input{
+    margin: 20px 60px;
+}
+
+#submit_btn{
+    margin: 20px 150px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+#submit_btn:hover{
+    
+    transition: 0.5s linear;
+    background: gray;
+    color:white;
+}
+
+/* End During game display */
+
+
+/* Select Difficulty */
+#select_difficulty_win{
+   
+}
+
+#select_difficulty_label{
+    background: gray;
+    color: bisque;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Impact;
+    letter-spacing: 1px;
+}
+
+#user_attempt{
+    font-size: 20px;
+}
+
+#easy_btn{
+    border-radius: 50px;
+    background: #D8CCA3;
+    color: white;
+    margin: 20px;
+}
+
+#medium_btn{
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #B09B71;
+    color: white;
+    margin: 20px;
+}
+
+#hard_btn{
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #87805E;
+    color: white;
+    margin: 20px;
+}
+
+#easy_btn:hover, #medium_btn:hover, #hard_btn:hover{
+   
+    transition: 0.5s linear;
+    background-color: gray;
+    color:bisque;
+
+}
+
+/* End Select Difficulty */
+
+    
+
+
+/* Victory */
+#victory_label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gold;
+    color: gray;
+    border: 1px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#victory_win{
+    background-color: gold;
+}
+
+/* End of Victory */
+
+
+
+/* Gameover Label */
+#gameover_label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+#answer_display{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    margin: 20px;
+}
+
+#gameover_win{
+    background-color: rgb(224, 63, 63);
+}
+
+#play_again_btn{
+    font-size: 25px;
+    border-radius: 50px;
+    background: rgb(103, 161, 15);
+    color: white;
+    margin: 50px;
+}
+
+#play_again_btn:hover{
+    transition: 0.5s linear;
+    background-color: gray;
+    color:bisque;
+}
+
+
+
